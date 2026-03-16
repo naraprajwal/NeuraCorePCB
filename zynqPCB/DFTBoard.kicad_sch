@@ -19,7 +19,7 @@
 		(uuid "654b604c-58ce-4e76-8ba2-5076e42f3788")
 	)
 	(sheet
-		(at 137.16 52.07)
+		(at 90.17 50.8)
 		(size 27.94 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35,7 +35,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000058508414")
 		(property "Sheetname" "Power"
-			(at 137.16 51.2314 0)
+			(at 90.17 49.9614 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -44,7 +44,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 137.16 79.4262 0)
+			(at 90.17 78.1562 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -61,7 +61,7 @@
 		)
 	)
 	(sheet
-		(at 184.15 93.98)
+		(at 135.89 92.71)
 		(size 26.67 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -77,7 +77,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000058508444")
 		(property "Sheetname" "Audio"
-			(at 184.15 93.1414 0)
+			(at 135.89 91.8714 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -86,7 +86,7 @@
 			)
 		)
 		(property "Sheetfile" "Audio.kicad_sch"
-			(at 184.15 120.0662 0)
+			(at 135.89 118.7962 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -103,7 +103,7 @@
 		)
 	)
 	(sheet
-		(at 90.17 93.98)
+		(at 181.61 52.07)
 		(size 27.94 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -119,7 +119,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005852a88e")
 		(property "Sheetname" "USB"
-			(at 90.17 93.1541 0)
+			(at 181.61 51.2441 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -128,7 +128,7 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 90.17 120.0662 0)
+			(at 181.61 78.1562 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -145,49 +145,7 @@
 		)
 	)
 	(sheet
-		(at 90.17 52.07)
-		(size 27.94 26.67)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-00005852ff3b")
-		(property "Sheetname" "Sensors"
-			(at 90.17 51.2314 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "sensors.kicad_sch"
-			(at 90.17 79.4262 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "DFTBoard"
-				(path "/49eba173-d38c-4d05-b21c-b4a14c4948c2"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 137.16 93.98)
+		(at 90.17 92.71)
 		(size 27.94 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -203,7 +161,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000058818a06")
 		(property "Sheetname" "DDR3"
-			(at 137.16 93.1414 0)
+			(at 90.17 91.8714 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -212,7 +170,7 @@
 			)
 		)
 		(property "Sheetfile" "DDR3.kicad_sch"
-			(at 137.16 120.0662 0)
+			(at 90.17 118.7962 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -229,7 +187,7 @@
 		)
 	)
 	(sheet
-		(at 184.15 52.07)
+		(at 137.16 50.8)
 		(size 26.67 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -245,7 +203,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005c7c62ae")
 		(property "Sheetname" "LCD50"
-			(at 184.15 51.2314 0)
+			(at 137.16 49.9614 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -254,7 +212,7 @@
 			)
 		)
 		(property "Sheetfile" "LCD50.kicad_sch"
-			(at 184.15 79.4262 0)
+			(at 137.16 78.1562 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -271,7 +229,7 @@
 		)
 	)
 	(sheet
-		(at 137.16 134.62)
+		(at 181.61 91.44)
 		(size 27.94 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -287,7 +245,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005ca1abae")
 		(property "Sheetname" "Storage"
-			(at 137.16 133.7814 0)
+			(at 181.61 90.6014 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -296,7 +254,7 @@
 			)
 		)
 		(property "Sheetfile" "Storage.kicad_sch"
-			(at 137.16 160.7062 0)
+			(at 181.61 117.5262 0)
 			(effects
 				(font
 					(size 1.524 1.524)

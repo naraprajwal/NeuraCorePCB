@@ -11984,6 +11984,10 @@
 		(uuid "df7c875c-6047-43cc-ba2a-8f64363092a6")
 	)
 	(no_connect
+		(at 160.02 88.9)
+		(uuid "04ac5a15-d738-4bf4-b295-01351520b0b1")
+	)
+	(no_connect
 		(at 163.83 156.21)
 		(uuid "0b28f418-d0e3-407e-acc7-28f60f8a675d")
 	)
@@ -11998,6 +12002,14 @@
 	(no_connect
 		(at 163.83 44.45)
 		(uuid "5b97473b-cb39-41e5-bf98-462c29f689f3")
+	)
+	(no_connect
+		(at 163.83 64.77)
+		(uuid "6718cfdb-cf45-4a6e-b56e-5dda59ff7c2a")
+	)
+	(no_connect
+		(at 163.83 87.63)
+		(uuid "6823b1d0-cd0b-4bf7-b569-e879e6bacc68")
 	)
 	(no_connect
 		(at 163.83 59.69)
@@ -12058,6 +12070,14 @@
 	(no_connect
 		(at 163.83 54.61)
 		(uuid "f191e319-3517-4555-ac82-8f97e692c7c7")
+	)
+	(no_connect
+		(at 163.83 67.31)
+		(uuid "f37fd0b6-24bc-41e6-95a9-8e58a6f11bb7")
+	)
+	(no_connect
+		(at 163.83 143.51)
+		(uuid "f87e4c90-60ac-455f-aa29-c8c5436b0d8b")
 	)
 	(wire
 		(pts
@@ -13169,26 +13189,6 @@
 			)
 		)
 	)
-	(global_label "ACC_INT2"
-		(shape bidirectional)
-		(at 163.83 67.31 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "2beceb29-0f17-437b-b6bf-dd7dc707e323")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "STATLED_2"
 		(shape output)
 		(at 163.83 90.17 180)
@@ -13969,26 +13969,6 @@
 			)
 		)
 	)
-	(global_label "RF_IRQ"
-		(shape bidirectional)
-		(at 163.83 87.63 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "aad15f18-f004-4ca4-b710-ec5d56847090")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LCD_D2"
 		(shape bidirectional)
 		(at 64.77 40.64 180)
@@ -14021,26 +14001,6 @@
 		(uuid "ac980e64-5f77-4a91-b61d-e044a4918f8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 163.83 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ACC_INT1"
-		(shape bidirectional)
-		(at 163.83 64.77 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "b0808514-c1ed-4050-a489-a6811625c22b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14101,26 +14061,6 @@
 		(uuid "b43b249c-fca5-4c57-ae14-173ec0f1d3fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 64.77 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TEMPO_LED"
-		(shape output)
-		(at 163.83 143.51 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "c2ab8ed1-2587-4c8a-a07f-f63fc26219fa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)

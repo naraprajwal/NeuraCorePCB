@@ -10683,6 +10683,10 @@
 		(uuid "067f059e-7b0f-4f72-ab87-f932b9bca6d6")
 	)
 	(no_connect
+		(at 198.12 101.6)
+		(uuid "10e2c223-fae3-4de4-916f-beb19566be8a")
+	)
+	(no_connect
 		(at 207.01 64.77)
 		(uuid "3312a810-56eb-46e3-ab37-d87551c68625")
 	)
@@ -10693,6 +10697,10 @@
 	(no_connect
 		(at 140.97 114.3)
 		(uuid "9aaf1cab-1bab-448a-aeaf-68c1a859acef")
+	)
+	(no_connect
+		(at 207.01 102.87)
+		(uuid "aa2f37ad-87cf-4a90-b1f9-f54b0880e743")
 	)
 	(wire
 		(pts
@@ -11706,26 +11714,6 @@
 		(uuid "a2789e42-d8de-40d1-acd6-a8faecdaa32f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 176.53 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RF2_IRQ"
-		(shape bidirectional)
-		(at 207.01 102.87 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "ad4c1d8e-75bf-4ab8-8d75-942a627381d0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.01 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
