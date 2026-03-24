@@ -11988,12 +11988,20 @@
 		(uuid "0b28f418-d0e3-407e-acc7-28f60f8a675d")
 	)
 	(no_connect
+		(at 163.83 82.55)
+		(uuid "38acf398-8229-4452-8dc3-cd974025bf2c")
+	)
+	(no_connect
 		(at 163.83 161.29)
 		(uuid "3c0026b1-97d9-4525-b5fb-d9ace1691d1c")
 	)
 	(no_connect
 		(at 163.83 49.53)
 		(uuid "42fc22d4-41c1-4b5b-b893-2a48c2970a47")
+	)
+	(no_connect
+		(at 163.83 80.01)
+		(uuid "57ede1ba-b4b0-4789-b4b7-911136d5a769")
 	)
 	(no_connect
 		(at 163.83 44.45)
@@ -12042,6 +12050,10 @@
 	(no_connect
 		(at 163.83 46.99)
 		(uuid "a9946bb2-e9ca-41c7-b6dc-f73095804dac")
+	)
+	(no_connect
+		(at 163.83 97.79)
+		(uuid "ab7635d5-181f-4aa2-9f37-24725f9366f2")
 	)
 	(no_connect
 		(at 163.83 72.39)
@@ -13325,26 +13337,6 @@
 			)
 		)
 	)
-	(global_label "LED_2R_CTRL"
-		(shape output)
-		(at 163.83 80.01 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "407c97a3-5663-41cf-a0dc-93571881b26b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C33_HDMI_SDA"
 		(shape bidirectional)
 		(at 81.28 121.92 180)
@@ -14125,26 +14117,6 @@
 			)
 		)
 	)
-	(global_label "LED_2G_CTRL"
-		(shape output)
-		(at 163.83 97.79 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "dbb61117-2753-478f-aeeb-765e19b90843")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C5_HDMI_SCLK"
 		(shape input)
 		(at 135.89 127 270)
@@ -14237,26 +14209,6 @@
 		(uuid "e387b489-1f4c-4d33-9b44-981a81b0b71a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 130.81 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_2B_CTRL"
-		(shape output)
-		(at 163.83 82.55 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "f0bb2dbe-8be2-4b1b-be99-c9e2f5f5b241")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
