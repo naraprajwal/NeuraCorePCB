@@ -9369,16 +9369,40 @@
 		(uuid "0b56c9f0-8562-4ee3-971e-6b5eb1ce7bc0")
 	)
 	(no_connect
+		(at 50.8 24.13)
+		(uuid "0bf37c29-584b-4020-b796-ff701a31370e")
+	)
+	(no_connect
+		(at 50.8 26.67)
+		(uuid "0d817e68-78ff-4e2b-a46c-bea014481b23")
+	)
+	(no_connect
 		(at 50.8 46.99)
 		(uuid "0e405dad-1787-457f-878d-a16444a00ec8")
+	)
+	(no_connect
+		(at 50.8 29.21)
+		(uuid "0fde8f26-b083-40b6-b04f-b65fe5d6c110")
 	)
 	(no_connect
 		(at 50.8 118.11)
 		(uuid "11158115-7942-4ed5-8eb3-f5dbd2748fb9")
 	)
 	(no_connect
+		(at 50.8 36.83)
+		(uuid "1496d87c-0290-4103-886d-9f8cffa78ffa")
+	)
+	(no_connect
+		(at 50.8 13.97)
+		(uuid "198cc9bf-55c4-4a4e-8353-8a2d19270948")
+	)
+	(no_connect
 		(at 50.8 130.81)
 		(uuid "1a8f04ae-ecca-4f8f-9532-397a1e1792d9")
+	)
+	(no_connect
+		(at 50.8 52.07)
+		(uuid "1af9c2d9-a000-43c1-b1d5-5a3cd253190b")
 	)
 	(no_connect
 		(at 50.8 125.73)
@@ -9389,12 +9413,28 @@
 		(uuid "21ad3308-80e4-42d8-ac10-9178bb886e8f")
 	)
 	(no_connect
+		(at 50.8 21.59)
+		(uuid "23585b82-dad9-4ac1-a2df-e95a259fa581")
+	)
+	(no_connect
+		(at 50.8 31.75)
+		(uuid "24e326a7-15d8-4588-a4fa-96395b8b6861")
+	)
+	(no_connect
+		(at 50.8 34.29)
+		(uuid "28048cad-29e6-405f-a92a-994dc9a136df")
+	)
+	(no_connect
 		(at 50.8 85.09)
 		(uuid "3bfcd6b9-0883-4679-979c-b307aaf87181")
 	)
 	(no_connect
 		(at 50.8 16.51)
 		(uuid "42a29375-009a-475f-850e-17f056901533")
+	)
+	(no_connect
+		(at 50.8 54.61)
+		(uuid "582ef97f-3cb9-4200-85a2-e80088b3962e")
 	)
 	(no_connect
 		(at 50.8 138.43)
@@ -9409,12 +9449,24 @@
 		(uuid "65e559d0-e70a-4215-a467-a9aba6837b23")
 	)
 	(no_connect
+		(at 50.8 19.05)
+		(uuid "6608241a-52b2-42c0-a53b-57b93aeefaec")
+	)
+	(no_connect
+		(at 50.8 41.91)
+		(uuid "74339df2-640c-4a86-85fa-8630296de09b")
+	)
+	(no_connect
 		(at 50.8 90.17)
 		(uuid "748d6049-2ceb-4322-8ef4-004f3e7331fb")
 	)
 	(no_connect
 		(at 50.8 113.03)
 		(uuid "79b872ff-bf2a-4a3e-b0c6-fe8ec16eab47")
+	)
+	(no_connect
+		(at 50.8 62.23)
+		(uuid "7f497365-934b-4b7c-8527-bd59f759cce7")
 	)
 	(no_connect
 		(at 50.8 80.01)
@@ -9425,12 +9477,20 @@
 		(uuid "85dfd79c-bc59-4fec-b63e-7f98b66c1dc2")
 	)
 	(no_connect
+		(at 50.8 59.69)
+		(uuid "8a90890c-2e0e-4b88-8a73-02867b0dcee0")
+	)
+	(no_connect
 		(at 50.8 135.89)
 		(uuid "8c6dd0d9-23e9-499f-9225-10b61748dba2")
 	)
 	(no_connect
 		(at 50.8 67.31)
 		(uuid "91f51beb-f6fd-4b98-a7b0-8dd798da4a02")
+	)
+	(no_connect
+		(at 50.8 49.53)
+		(uuid "980ec376-3e0e-435c-97cc-3d0466d0d491")
 	)
 	(no_connect
 		(at 50.8 110.49)
@@ -9453,6 +9513,10 @@
 		(uuid "a9191e2b-491b-492b-8e01-69cd6a489705")
 	)
 	(no_connect
+		(at 50.8 57.15)
+		(uuid "af116c64-9e53-4304-abd7-0a0ed6905844")
+	)
+	(no_connect
 		(at 50.8 100.33)
 		(uuid "b02add77-150e-44f8-a2de-d21661f54459")
 	)
@@ -9463,6 +9527,10 @@
 	(no_connect
 		(at 50.8 107.95)
 		(uuid "b8620fd3-a61c-430a-bce2-a294f406bcae")
+	)
+	(no_connect
+		(at 50.8 39.37)
+		(uuid "c2c22dca-a180-4b98-a4c6-3cbaa7df94e6")
 	)
 	(no_connect
 		(at 50.8 123.19)
@@ -9757,346 +9825,6 @@
 			(type default)
 		)
 		(uuid "ff5474b4-75fe-4f4f-827f-7c616eba95a9")
-	)
-	(global_label "LCD_D16"
-		(shape bidirectional)
-		(at 50.8 34.29 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "0b8d9e4b-6c1f-41e7-a2fd-f65df83c8477")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LCD_D12"
-		(shape bidirectional)
-		(at 50.8 52.07 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "1f05df38-36a4-4168-8cbb-d12dd8c6f382")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LCD_D22"
-		(shape bidirectional)
-		(at 50.8 21.59 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "20118e7c-d3d9-47bc-8c99-93b11ccea8bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LCD_D3"
-		(shape bidirectional)
-		(at 50.8 36.83 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "3e8aa84b-8951-4edb-bd2e-486f7d5135c9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LCD_D2"
-		(shape bidirectional)
-		(at 50.8 13.97 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "4a726819-9aae-4b9a-b86e-edf41af7d183")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LCD_D15"
-		(shape bidirectional)
-		(at 50.8 29.21 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "4bc4374d-db2c-41ce-a72f-8eb5697a6355")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LCD_D1"
-		(shape bidirectional)
-		(at 50.8 49.53 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "4c997092-44dc-489c-bb9c-d290a021eda0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LCD_D19"
-		(shape bidirectional)
-		(at 50.8 24.13 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "64ffd416-053d-4c5f-bf7f-3972bef12ddc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LCD_D18"
-		(shape bidirectional)
-		(at 50.8 39.37 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "7bca5b5d-7198-40bc-a50c-23319caae7b7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LCD_D20"
-		(shape bidirectional)
-		(at 50.8 19.05 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "814f43a3-9c35-4c20-a936-b6ae48719b82")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LCD_D0"
-		(shape bidirectional)
-		(at 50.8 54.61 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "b4b1db98-aa3d-4eb5-8f31-e82c361ea589")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LCD_D11"
-		(shape bidirectional)
-		(at 50.8 57.15 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "cb49b223-ba3c-436a-b208-6910bd6e3a26")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LCD_D21"
-		(shape bidirectional)
-		(at 50.8 26.67 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "dd6096ef-c980-494b-86c5-83c6b1084556")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LCD_D14"
-		(shape bidirectional)
-		(at 50.8 62.23 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "e30fd8f9-334d-484a-a1f6-a42b01bcc0d1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LCD_D10"
-		(shape bidirectional)
-		(at 50.8 41.91 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "f2cd9398-5928-456d-9ba0-d020b1ea1b75")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LCD_D13"
-		(shape bidirectional)
-		(at 50.8 59.69 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "fa9f9075-9559-4b47-ac95-b406f91e7ed5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LCD_D17"
-		(shape bidirectional)
-		(at 50.8 31.75 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "fad8650e-0472-47b6-b38d-f3474920234f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
