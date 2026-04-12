@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "49eba173-d38c-4d05-b21c-b4a14c4948c2")
 	(paper "A4")
 	(lib_symbols)
@@ -31,11 +31,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "00000000-0000-0000-0000-000058508414")
 		(property "Sheetname" "Power"
 			(at 90.17 49.9614 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -45,6 +47,8 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 90.17 78.1562 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -73,11 +77,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "00000000-0000-0000-0000-000058508444")
-		(property "Sheetname" "Audio"
+		(property "Sheetname" "CAMERA"
 			(at 135.89 91.8714 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -87,6 +93,8 @@
 		)
 		(property "Sheetfile" "Audio.kicad_sch"
 			(at 135.89 118.7962 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -115,11 +123,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "00000000-0000-0000-0000-00005852a88e")
 		(property "Sheetname" "USB"
 			(at 181.61 51.2441 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -129,6 +139,8 @@
 		)
 		(property "Sheetfile" "USB.kicad_sch"
 			(at 181.61 78.1562 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -157,11 +169,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "00000000-0000-0000-0000-000058818a06")
 		(property "Sheetname" "DDR3"
 			(at 90.17 91.8714 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -171,6 +185,8 @@
 		)
 		(property "Sheetfile" "DDR3.kicad_sch"
 			(at 90.17 118.7962 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -199,11 +215,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "00000000-0000-0000-0000-00005c7c62ae")
 		(property "Sheetname" "LCD50"
 			(at 137.16 49.9614 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -213,6 +231,8 @@
 		)
 		(property "Sheetfile" "LCD50.kicad_sch"
 			(at 137.16 78.1562 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -241,11 +261,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "00000000-0000-0000-0000-00005ca1abae")
 		(property "Sheetname" "Storage"
 			(at 181.61 90.6014 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -255,6 +277,8 @@
 		)
 		(property "Sheetfile" "Storage.kicad_sch"
 			(at 181.61 117.5262 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
