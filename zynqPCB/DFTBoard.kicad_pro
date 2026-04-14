@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -72,6 +74,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
@@ -89,6 +92,7 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
@@ -108,9 +112,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -2093,17 +2100,13 @@
         "uuid": "49eba173-d38c-4d05-b21c-b4a14c4948c2"
       }
     ],
-    "used_designators": "#FLG1,#FLG9,R3-4,R7-8,C10-12,U20G1,#PWR7,#PWR28-29",
+    "used_designators": "FB2,R3,R10-13,R18-22,#PWR7,#PWR13-20,#PWR74-78,#FLG10,U1-2",
     "variants": []
   },
   "sheets": [
     [
       "49eba173-d38c-4d05-b21c-b4a14c4948c2",
       "DFTBoard"
-    ],
-    [
-      "3aefaf9b-7a86-4429-b040-6c6748c0f4bd",
-      "unplaced_power_pins"
     ],
     [
       "00000000-0000-0000-0000-000058508414",

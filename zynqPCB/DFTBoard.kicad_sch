@@ -260,52 +260,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 173.99 92.71)
-		(size 29.21 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "3aefaf9b-7a86-4429-b040-6c6748c0f4bd")
-		(property "Sheetname" "unplaced_power_pins"
-			(at 173.99 91.8714 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Unplacedpowerpins.kicad_sch"
-			(at 173.99 118.7962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "DFTBoard"
-				(path "/49eba173-d38c-4d05-b21c-b4a14c4948c2"
-					(page "2")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")
