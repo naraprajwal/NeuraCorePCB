@@ -3333,6 +3333,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -12835,6 +12974,29 @@
 		)
 		(uuid "ceb68e95-038f-483c-b8d1-b7bf394f34b5")
 	)
+	(text "Have to review the \nsequencing circuit"
+		(exclude_from_sim no)
+		(at 3.81 171.958 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 255 0 8 1)
+			)
+		)
+		(uuid "d485c88c-0c85-421e-8cb7-6c22ecf7ec50")
+	)
+	(text "did add a pull up resistor but not sure\nit works\n"
+		(exclude_from_sim no)
+		(at -1.524 188.214 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 1.0008)
+				(bold yes)
+			)
+		)
+		(uuid "e636bf47-8918-4d1d-b518-7ce3d79fc71e")
+	)
 	(text "Sheild can be also grounded using \nferrite bead or 0ohm resistor\n"
 		(exclude_from_sim no)
 		(at 213.868 36.068 0)
@@ -13034,6 +13196,12 @@
 		(uuid "7d6a8991-dae8-4aaa-b192-81f819a17602")
 	)
 	(junction
+		(at 24.13 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84dc2d44-f3f2-438c-8819-a0d84c8eed66")
+	)
+	(junction
 		(at 210.82 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13140,6 +13308,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d04a9bae-896e-48d9-b264-6f1dd604463e")
+	)
+	(junction
+		(at 209.55 7.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d231f000-343c-4480-a982-6f8c7cc91d1f")
 	)
 	(junction
 		(at 168.91 154.94)
@@ -13517,6 +13691,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 176.53) (xy 24.13 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc8f491-385b-4587-ac4d-9576b89b15cb")
+	)
+	(wire
+		(pts
 			(xy 80.01 110.49) (xy 81.28 110.49)
 		)
 		(stroke
@@ -13607,7 +13791,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 5.08) (xy 209.55 13.97)
+			(xy 209.55 5.08) (xy 209.55 7.62)
 		)
 		(stroke
 			(width 0)
@@ -13797,7 +13981,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 176.53) (xy 27.94 176.53)
+			(xy 19.05 176.53) (xy 24.13 176.53)
 		)
 		(stroke
 			(width 0)
@@ -13844,6 +14028,16 @@
 			(type default)
 		)
 		(uuid "584b0ff6-fab8-4fb8-b3b9-e34795f51ddd")
+	)
+	(wire
+		(pts
+			(xy 24.13 176.53) (xy 27.94 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ce5979-a724-456f-828e-39d3934d2827")
 	)
 	(wire
 		(pts
@@ -14614,6 +14808,16 @@
 			(type default)
 		)
 		(uuid "c5ce259e-4ebf-40e8-8a9b-3908b3c57ecb")
+	)
+	(wire
+		(pts
+			(xy 209.55 7.62) (xy 209.55 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b35da3-5fc9-499d-89d0-f0568c523b46")
 	)
 	(wire
 		(pts
@@ -26161,7 +26365,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cc9035b")
-		(property "Reference" "U20A1"
+		(property "Reference" "U20"
 			(at 273.8374 77.3938 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27725,7 +27929,7 @@
 		(instances
 			(project "DFTBoard"
 				(path "/49eba173-d38c-4d05-b21c-b4a14c4948c2/00000000-0000-0000-0000-000058508414"
-					(reference "U20A1")
+					(reference "U20")
 					(unit 1)
 				)
 			)
@@ -28376,7 +28580,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd16688")
-		(property "Reference" "U20I1"
+		(property "Reference" "U20"
 			(at 278.9174 156.2862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29940,7 +30144,7 @@
 		(instances
 			(project "DFTBoard"
 				(path "/49eba173-d38c-4d05-b21c-b4a14c4948c2/00000000-0000-0000-0000-000058508414"
-					(reference "U20I1")
+					(reference "U20")
 					(unit 9)
 				)
 			)
@@ -31692,6 +31896,88 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 24.13 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b0370cb-b807-494b-880c-a428a7a57816")
+		(property "Reference" "R3"
+			(at 26.67 182.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 26.67 185.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.352 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 24.13 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6c364e19-f2fd-419d-b9ce-05b10695949b")
+		)
+		(pin "1"
+			(uuid "67eebe3e-ed72-405b-8337-4426908e3ca4")
+		)
+		(instances
+			(project "DFTBoard"
+				(path "/49eba173-d38c-4d05-b21c-b4a14c4948c2/00000000-0000-0000-0000-000058508414"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 173.99 24.13 90)
 		(unit 1)
 		(body_style 1)
@@ -31764,6 +32050,84 @@
 			(project "DFTBoard"
 				(path "/49eba173-d38c-4d05-b21c-b4a14c4948c2/00000000-0000-0000-0000-000058508414"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 24.13 187.96 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38b327b6-2cd4-462c-ba97-a47728f9f46a")
+		(property "Reference" "#PWR07"
+			(at 24.13 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 24.13 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 24.13 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d802f97-8cf7-4b49-b498-4ae6687be8d0")
+		)
+		(instances
+			(project "DFTBoard"
+				(path "/49eba173-d38c-4d05-b21c-b4a14c4948c2/00000000-0000-0000-0000-000058508414"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -32521,6 +32885,85 @@
 			(project "DFTBoard"
 				(path "/49eba173-d38c-4d05-b21c-b4a14c4948c2/00000000-0000-0000-0000-000058508414"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 209.55 7.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cef8794c-d422-4fb6-8cfc-3a907b6a3519")
+		(property "Reference" "#FLG01"
+			(at 211.455 7.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 213.36 7.6199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 7.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 7.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 209.55 7.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "baa71bfe-512a-4193-92a9-589b4813c5be")
+		)
+		(instances
+			(project "DFTBoard"
+				(path "/49eba173-d38c-4d05-b21c-b4a14c4948c2/00000000-0000-0000-0000-000058508414"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)

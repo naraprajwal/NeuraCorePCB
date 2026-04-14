@@ -2093,7 +2093,7 @@
         "uuid": "49eba173-d38c-4d05-b21c-b4a14c4948c2"
       }
     ],
-    "used_designators": "C1-2,R1-2,#PWR1-6,J6",
+    "used_designators": "#FLG1,#FLG9,R3-4,R7-8,C10-12,U20G1,#PWR7,#PWR28-29",
     "variants": []
   },
   "sheets": [
@@ -2102,8 +2102,8 @@
       "DFTBoard"
     ],
     [
-      "00000000-0000-0000-0000-00005852a88e",
-      "USB"
+      "3aefaf9b-7a86-4429-b040-6c6748c0f4bd",
+      "unplaced_power_pins"
     ],
     [
       "00000000-0000-0000-0000-000058508414",

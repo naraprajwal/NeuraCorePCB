@@ -26919,7 +26919,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd23861")
-		(property "Reference" "U20H1"
+		(property "Reference" "U20"
 			(at 289.0774 105.3338 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28483,7 +28483,7 @@
 		(instances
 			(project "DFTBoard"
 				(path "/49eba173-d38c-4d05-b21c-b4a14c4948c2/00000000-0000-0000-0000-000058818a06"
-					(reference "U20H1")
+					(reference "U20")
 					(unit 8)
 				)
 			)

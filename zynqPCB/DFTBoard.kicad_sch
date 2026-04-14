@@ -5,6 +5,18 @@
 	(uuid "49eba173-d38c-4d05-b21c-b4a14c4948c2")
 	(paper "A4")
 	(lib_symbols)
+	(rectangle
+		(start 182.88 105.41)
+		(end 182.88 105.41)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6581f556-542f-4152-8d25-b8e5225ff3a3")
+	)
 	(text "DT01 v3"
 		(exclude_from_sim no)
 		(at 134.62 39.37 0)
@@ -91,7 +103,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Audio.kicad_sch"
+		(property "Sheetfile" "Camera.kicad_sch"
 			(at 135.89 118.7962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -106,52 +118,6 @@
 			(project "DFTBoard"
 				(path "/49eba173-d38c-4d05-b21c-b4a14c4948c2"
 					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 181.61 52.07)
-		(size 27.94 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "00000000-0000-0000-0000-00005852a88e")
-		(property "Sheetname" "USB"
-			(at 181.61 51.2441 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "USB.kicad_sch"
-			(at 181.61 78.1562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "DFTBoard"
-				(path "/49eba173-d38c-4d05-b21c-b4a14c4948c2"
-					(page "3")
 				)
 			)
 		)
@@ -249,7 +215,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 91.44)
+		(at 173.99 52.07)
 		(size 27.94 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -265,7 +231,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005ca1abae")
 		(property "Sheetname" "Storage"
-			(at 181.61 90.6014 0)
+			(at 173.99 51.2314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -276,7 +242,7 @@
 			)
 		)
 		(property "Sheetfile" "Storage.kicad_sch"
-			(at 181.61 117.5262 0)
+			(at 173.99 78.1562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -290,6 +256,52 @@
 			(project "DFTBoard"
 				(path "/49eba173-d38c-4d05-b21c-b4a14c4948c2"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 92.71)
+		(size 29.21 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3aefaf9b-7a86-4429-b040-6c6748c0f4bd")
+		(property "Sheetname" "unplaced_power_pins"
+			(at 173.99 91.8714 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Unplacedpowerpins.kicad_sch"
+			(at 173.99 118.7962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DFTBoard"
+				(path "/49eba173-d38c-4d05-b21c-b4a14c4948c2"
+					(page "2")
 				)
 			)
 		)
