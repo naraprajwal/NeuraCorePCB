@@ -454,7 +454,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -2100,7 +2100,7 @@
         "uuid": "49eba173-d38c-4d05-b21c-b4a14c4948c2"
       }
     ],
-    "used_designators": "FB2,R3,R10-13,R18-22,#PWR7,#PWR13-20,#PWR74-78,#FLG10,U1-2",
+    "used_designators": "J1,FB3,#PWR1-6,#PWR8-9,#PWR16,#PWR18-24,#PWR180-181,C1-2,R1-2,R73-74,#FLG1,#FLG9,#FLG11,U1",
     "variants": []
   },
   "sheets": [
@@ -2109,8 +2109,16 @@
       "DFTBoard"
     ],
     [
+      "f959ad9d-3c11-4f00-a0f3-569c86969599",
+      "Power Input"
+    ],
+    [
       "00000000-0000-0000-0000-000058508414",
       "Power"
+    ],
+    [
+      "00000000-0000-0000-0000-00005c7c62ae",
+      "HDMI"
     ],
     [
       "00000000-0000-0000-0000-000058818a06",
@@ -2119,10 +2127,6 @@
     [
       "00000000-0000-0000-0000-00005ca1abae",
       "Storage"
-    ],
-    [
-      "00000000-0000-0000-0000-00005c7c62ae",
-      "LCD50"
     ],
     [
       "00000000-0000-0000-0000-000058508444",

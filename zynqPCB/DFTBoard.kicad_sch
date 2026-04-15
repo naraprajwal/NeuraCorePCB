@@ -17,7 +17,7 @@
 		)
 		(uuid "6581f556-542f-4152-8d25-b8e5225ff3a3")
 	)
-	(text "DT01 v3"
+	(text "OCR\n"
 		(exclude_from_sim no)
 		(at 134.62 39.37 0)
 		(effects
@@ -71,7 +71,7 @@
 		(instances
 			(project "DFTBoard"
 				(path "/49eba173-d38c-4d05-b21c-b4a14c4948c2"
-					(page "4")
+					(page "3")
 				)
 			)
 		)
@@ -117,7 +117,7 @@
 		(instances
 			(project "DFTBoard"
 				(path "/49eba173-d38c-4d05-b21c-b4a14c4948c2"
-					(page "8")
+					(page "7")
 				)
 			)
 		)
@@ -184,7 +184,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "00000000-0000-0000-0000-00005c7c62ae")
-		(property "Sheetname" "LCD50"
+		(property "Sheetname" "HDMI"
 			(at 137.16 49.9614 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -195,7 +195,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LCD50.kicad_sch"
+		(property "Sheetfile" "HDMI.kicad_sch"
 			(at 137.16 78.1562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -209,7 +209,7 @@
 		(instances
 			(project "DFTBoard"
 				(path "/49eba173-d38c-4d05-b21c-b4a14c4948c2"
-					(page "7")
+					(page "4")
 				)
 			)
 		)
@@ -256,6 +256,52 @@
 			(project "DFTBoard"
 				(path "/49eba173-d38c-4d05-b21c-b4a14c4948c2"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 92.71)
+		(size 29.21 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f959ad9d-3c11-4f00-a0f3-569c86969599")
+		(property "Sheetname" "Power Input"
+			(at 173.99 91.8714 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_input_usb-c.kicad_sch"
+			(at 173.99 118.7962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DFTBoard"
+				(path "/49eba173-d38c-4d05-b21c-b4a14c4948c2"
+					(page "2")
 				)
 			)
 		)

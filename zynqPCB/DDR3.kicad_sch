@@ -31485,7 +31485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MT41K256M16TW-107_P:BGA96C80P9X16_1400X800X120"
+		(property "Footprint" "DFTcustom:MT41K256M16TW_107_P"
 			(at 123.19 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -32413,7 +32413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MT41K256M16TW-107_P:BGA96C80P9X16_1400X800X120"
+		(property "Footprint" "DFTcustom:MT41K256M16TW_107_P"
 			(at 27.94 88.9 0)
 			(hide yes)
 			(show_name no)
