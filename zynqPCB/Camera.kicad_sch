@@ -11119,10 +11119,6 @@
 		(uuid "8727b3c1-cc95-43ce-abaf-0591e4e6b6db")
 	)
 	(no_connect
-		(at 223.52 60.96)
-		(uuid "9566e972-9841-4d25-8a37-6036bd14330b")
-	)
-	(no_connect
 		(at 237.49 106.68)
 		(uuid "a56f6eed-2060-49d7-9c7e-b18aa2a55452")
 	)
